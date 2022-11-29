@@ -81,9 +81,14 @@ nav {
 .list-item:last-child {
   margin-right: 0;
 }
+.list a {
+  color: var(--secondary-text-color);
+  fill: var(--secondary-text-color);
+}
 .list a:hover,
 .list a:focus {
   color: var(--main-hover-color);
+  fill: var(--main-hover-color);
 }
 .item.current {
   color: var(--main-hover-color);
@@ -94,23 +99,6 @@ nav {
 .head-mail {
   margin-right: 50px;
 }
-.icon-mail {
-  width: 16px;
-  height: 12px;
-  fill: var(--secondary-text-color);
-}
-.icon-mail:hover {
-  fill: var(--main-hover-color);
-}
-.icon-phone {
-  width: 10px;
-  height: 16px;
-  fill: var(--secondary-text-color);
-}
-.icon-phone:hover {
-  fill: var(--main-hover-color);
-}
-
 .head-mail,
 .head-phone {
   font-family: "Roboto", sans-serif;
@@ -119,15 +107,14 @@ nav {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
-.head-mail:hover,
-.head-mail:focus {
-  color: var(--main-hover-color);
+.icon-mail {
+  width: 16px;
+  height: 12px;
 }
-.head-phone:hover,
-.head-phone:focus {
-  color: var(--main-hover-color);
+.icon-phone {
+  width: 10px;
+  height: 16px;
 }
-
 /*--------------------- hero-------------- */
 
 .hero {
@@ -301,17 +288,23 @@ nav {
   background-color: unset;
   border: none;
   border-radius: 50%;
+  padding: 12px;
+  margin-bottom: 30px;
+  fill: var(--secondary-text-color);
 }
-
+.networks:hover {
+  background-color: #2196f3;
+  fill: var(--accent-color);
+}
 .icon-net {
   width: 20px;
   height: 20px;
-  fill: #afb1b8;
+  fill: inherit;
 }
 
-.icon-net:hover {
+/* .icon-net:hover {
   fill: var(--accent-color);
-}
+} */
 /*--------------------- clients-------------- */
 .clients-title {
   font-family: "Roboto";
@@ -332,15 +325,14 @@ nav {
   background-color: unset;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  fill: #afb1b8;
 }
-
+.icon-btn:hover{
+  fill: var(--main-hover-color);
+}
 .icon {
   width: 106px;
   height: 60px;
-  fill: #afb1b8;
-}
-.icon:hover {
-  fill: var(--main-hover-color);
 }
 
 /*--------------------- footer-------------- */
@@ -373,9 +365,7 @@ nav {
   text-transform: uppercase;
   color: var(--accent-color);
 }
-.icon-social {
-  fill: #fff;
-}
+
 .social-list {
   display: flex;
 }
@@ -385,7 +375,8 @@ nav {
   width: 44px;
   height: 44px;
   border: none;
-  padding: 0;
+  padding: 12px;
+  fill: var(--accent-color);
   margin-right: 10px;
   background: rgba(255, 255, 255, 0.1);
 }
