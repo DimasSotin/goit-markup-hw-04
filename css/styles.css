@@ -110,10 +110,12 @@ nav {
 .icon-mail {
   width: 16px;
   height: 12px;
+  margin-right: 10px;
 }
 .icon-phone {
   width: 10px;
   height: 16px;
+  margin-right: 10px;
 }
 /*--------------------- hero-------------- */
 
