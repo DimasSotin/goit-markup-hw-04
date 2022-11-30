@@ -120,6 +120,7 @@ nav {
 /*--------------------- hero-------------- */
 
 .hero {
+  min-height: 600px;
   color: var(--accent-color);
   text-align: center;
   background-repeat: no-repeat;
@@ -138,8 +139,8 @@ nav {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  padding-top: 200px;
   margin: 0 auto;
+  padding-top: 106px;
   color: var(--accent-color);
 }
 .hero-btn {
