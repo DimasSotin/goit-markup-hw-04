@@ -311,7 +311,8 @@ nav {
   justify-content: center;
 }
 .icon-btn {
-  padding: 16px 32px;
+  width: 170px;
+  height: 92px;
   margin-right: 30px;
   background-color: unset;
   border: 1px solid #afb1b8;
@@ -323,11 +324,6 @@ nav {
   fill: var(--main-hover-color);
   border-color: var(--main-hover-color);
 }
-.icon {
-  width: 106px;
-  height: 60px;
-}
-
 /*--------------------- footer-------------- */
 
 .footer {
