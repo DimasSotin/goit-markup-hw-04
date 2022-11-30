@@ -193,16 +193,16 @@ nav {
   margin-bottom: 30px;
 }
 .icon-antenna::before {
-  background-image: url("../images/antenna.png");
+  background-image: url("../images/antenna.svg");
 }
 .icon-clock::before {
-  background-image: url("../images/clock.png");
+  background-image: url("../images/clock.svg");
 }
 .icon-diagram::before {
-  background-image: url("../images/diagram.png");
+  background-image: url("../images/diagram.svg");
 }
 .icon-astranaut::before {
-  background-image: url("../images/astronaut.png");
+  background-image: url("../images/astronaut.svg");
 }
 .features-title {
   font-family: "Roboto", sans-serif;
@@ -262,7 +262,6 @@ nav {
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  padding-top: 94px;
   padding-bottom: 50px;
   color: var(--primary-color);
 }
