@@ -129,7 +129,7 @@ nav {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("../images/background-img.svg");
+    url("../images/background-img.jpg");
 }
 .hero-title {
   width: 696px;
@@ -182,28 +182,6 @@ nav {
 .features-item:nth-last-child(1) {
   margin-right: 0;
 }
-.features-item::before {
-  display: block;
-  content: "";
-  height: 120px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #f5f4fa;
-  border-radius: 4px;
-  margin-bottom: 30px;
-}
-.icon-antenna::before {
-  background-image: url("../images/antenna.svg");
-}
-.icon-clock::before {
-  background-image: url("../images/clock.svg");
-}
-.icon-diagram::before {
-  background-image: url("../images/diagram.svg");
-}
-.icon-astranaut::before {
-  background-image: url("../images/astronaut.svg");
-}
 .features-title {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
@@ -220,6 +198,17 @@ nav {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
+.icon-box {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
 /*--------------------- what we do-------------- */
 .work {
   text-align: center;
@@ -328,8 +317,10 @@ nav {
   border-radius: 4px;
   fill: #afb1b8;
 }
-.icon-btn:hover{
+
+.icon-btn:hover {
   fill: var(--main-hover-color);
+  border-color: var(--main-hover-color);
 }
 .icon {
   width: 106px;
